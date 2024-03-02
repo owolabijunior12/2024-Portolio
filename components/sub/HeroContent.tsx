@@ -19,7 +19,8 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+        <div className=" h-[20vh] w-screen">
+           <div className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
 
           <TypeAnimation
 sequence={[        
@@ -39,6 +40,8 @@ style={{ fontSize: "30px", fontWeight:"bold", textAlign:"center",minHeight:"80px
 repeat={Infinity}
 />
         </div>
+        </div>
+       
         <motion.div
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
