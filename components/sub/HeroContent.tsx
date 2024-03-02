@@ -19,7 +19,7 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className=" h-[20vh] w-screen">
+        <div className=" h-[20vh] w-screen flex justify-center items-center">
            <div className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
 
           <TypeAnimation
