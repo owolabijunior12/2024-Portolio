@@ -15,7 +15,7 @@ const Projects = () => {
           src="/project-3.png"
           title="Digital Clock"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          live=""
+          live="https://iboytech-music-app.vercel.app/"    
           github="https://iboytech-music-app.vercel.app/"
         />
         <ProjectCard
