@@ -6,7 +6,7 @@ interface Props {
   title: string;
   description: string;
   demo:string;
-  github:sring;
+  github:string;
 }
 
 const ProjectCard = ({ src, title, description,demo ,github }: Props) => {
