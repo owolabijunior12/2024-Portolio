@@ -19,27 +19,26 @@ const HeroContent = () => {
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-        <div className=" h-[20vh] w-screen flex justify-center items-center">
-           <div className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+        
+           <div className="text-transparent h-[20vh] w-screen flex items-center  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
 
           <TypeAnimation
 sequence={[        
     "I'm Owolabi Destiny Oluwanifemi",
     3000, 
-    "I'm Full Stack Web Developer Using  JavaScript.",
+    "I'm Full Stack Web Developer.",
     3000,
-    'I Build  Mobile Applications Using React Native ',
+    'I Build  Mobile Applications  ',
     2000, 
-    'I Write Software Application for Arduino Using C++',
+    'I Write Software Application ',
     3000,     
     
 ]}
 wrapper="span"
 speed={50}
-style={{ fontSize: "30px", fontWeight:"bold", textAlign:"center",minHeight:"80px" , padding:"10px", display: 'inline-block' }}
+style={{ fontSize: "20px", fontWeight:"bold", textAlign:"center",minHeight:"80px" , padding:"10px", display: 'inline-block' }}
 repeat={Infinity}
-/>
-        </div>
+/>        
         </div>
        
         <motion.div
