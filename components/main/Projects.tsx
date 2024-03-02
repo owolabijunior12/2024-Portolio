@@ -15,28 +15,28 @@ const Projects = () => {
           src="/project-3.png"
           title="Digital Clock"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          live="https://iboytech-music-app.vercel.app/"    
+         demo="https://iboytech-music-app.vercel.app/"    
           github="https://iboytech-music-app.vercel.app/"
         />
         <ProjectCard
           src="/project-4.png"
           title="Mern Stack Music Application"
           description="This is s realtime music appication which enable uses whom have the admin priviledge to add and remove music ]. it is built with reactjs, nodejs, tailwindcss, firebase,expressjs and frame motion"
-          live="https://iboytech-music-app.vercel.app/"
+         demo="https://iboytech-music-app.vercel.app/"
           github="https://github.com/owolabijunior12/Mern-stack-music-app"
         />
         <ProjectCard
           src="/project-6.png"
           title="Real Time Muiltplayer Game"
           description="This is a realtime muilti player game that enable user to play and communication together. it is build using reactjs, nodejs, socket.io,and expressjs"
-          live="https://iboytech-game-rps.vercel.app/"
+         demo="https://iboytech-game-rps.vercel.app/"
           github="https://github.com/owolabijunior12/Rock-papper-scissors-game"
         />
         <ProjectCard
           src="/project-7.png"
           title="Full Stack E-commerce Website"
           description="This is a full stack ecommerce website which enable uses to buy and make payment  for the product or make payment on delieverly. it is built reactjs ,nodejs ,expressjs ,paystack Api ,tailwindcss and frame motion"
-          live="https://iboytech-e-commerce.vercel.app/"
+         demo="https://iboytech-e-commerce.vercel.app/"
           github="https://github.com/owolabijunior12/personal-project"
         />
       </div>

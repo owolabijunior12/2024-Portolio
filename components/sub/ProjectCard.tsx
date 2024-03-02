@@ -5,9 +5,11 @@ interface Props {
   src: string;
   title: string;
   description: string;
+  demo:string;
+  github:sring;
 }
 
-const ProjectCard = ({ src, title, description,live,github }: Props) => {
+const ProjectCard = ({ src, title, description,demo ,github }: Props) => {
   return (
     <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
       <Image
@@ -23,7 +25,7 @@ const ProjectCard = ({ src, title, description,live,github }: Props) => {
         <p className="mt-2 text-gray-300">{description}</p>
         <div className="flex pt-5 gap-4">
                      <a href={github} target="_blink" >   <button type="button" className="border p-3 rounded-xl text-slate-200 font-mono font-semibold bg-slate-800">Github</button></a>
-                <a href={live} target="_blink" > <button type="button"  className="border p-3 rounded-xl text-slate-200 font-mono font-semibold bg-slate-800">Live</button></a>
+                <a href={demo} target="_blink" > <button type="button"  className="border p-3 rounded-xl text-slate-200 font-mono font-semibold bg-slate-800">Live</button></a>
                     </div>
       </div>
     </div>
